@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Estilos para el cuerpo (body) */
+body {
+    font-family: 'Inter', sans-serif; /* Cambia 'Inter' por la fuente que desees */
+    background-color: #010314; /* Color de fondo personalizado */
+    color: white; /* Color de fuente en blanco */
+}
+
+/* Estilos para la clase 'hero' */
+.hero {
+    background-image: url('recursos/bgHero.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 36px;
+}
+
+/* Otros estilos personalizados aquí */
+
+
+h1{
+    color: #FFF;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-family: Michroma;
+font-size: 128px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}

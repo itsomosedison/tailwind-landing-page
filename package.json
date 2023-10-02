@@ -4,7 +4,9 @@
   "description": "A simple landing page built with Tailwind CSS and Flowbite",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "next start",
+    "dev": "next dev",
+    "build": "next build"
   },
   "repository": {
     "type": "git",
@@ -27,7 +29,13 @@
   },
   "homepage": "https://github.com/themesberg/tailwind-css-landing-page#readme",
   "dependencies": {
-    "flowbite": "^1.4.7"
+    "airtable": "^0.12.2",
+    "express": "^4.18.2",
+    "flowbite": "^1.4.7",
+    "next": "^13.5.3",
+    "node-fetch": "^3.3.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "tailwindcss": "^3.1.4"
